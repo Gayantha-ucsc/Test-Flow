@@ -1,9 +1,6 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
--- ============================================================================
--- 1. User
--- ============================================================================
 DROP TABLE IF EXISTS `User`;
 CREATE TABLE `User` (
     user_id                     INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -665,8 +662,4 @@ CREATE TABLE `RolePermission` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 SET FOREIGN_KEY_CHECKS = 1;
-
--- ============================================================================
--- End of schema
--- ============================================================================
 
